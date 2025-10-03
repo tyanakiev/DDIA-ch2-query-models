@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: newpass
+      POSTGRES_DB: movies
+    ports:
+      - 5432:5432
+
+  mongo:
+    image: mongo:6
+    ports:
+      - 27017:27017
+
+  neo4j:
+    image: neo4j:5
+    environment:
+      NEO4J_AUTH: "neo4j/passpasspass"
+    ports:
+      - 7474:7474
+      - 7687:7687
