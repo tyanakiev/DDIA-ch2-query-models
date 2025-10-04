@@ -14,11 +14,11 @@ This repo is a practical playground for understanding:
 
 Architecture Overview
 ---------------------
-FastAPI
-│
-├── SQL: PostgreSQL (movies, actors, reviews)
-├── NoSQL: MongoDB (embedded reviews, flexible schema)
-└── Graph: Neo4j (actor-movie relationships)
+
+- FastAPI
+- SQL: PostgreSQL (movies, actors, reviews)
+- NoSQL: MongoDB (embedded reviews, flexible schema)
+- Graph: Neo4j (actor-movie relationships)
 
 Each backend is accessed via a dedicated repository and exposed through clean REST endpoints.
 
@@ -57,9 +57,9 @@ This populates each datastore with synthetic movie data using faker.
 
 API Endpoints
 -------------
-GET /sql/movies     → List movies from PostgreSQL
-GET /mongo/movies   → List movies from MongoDB
-GET /neo4j/movies   → List movies from Neo4j
+- GET /sql/movies     → List movies from PostgreSQL
+- GET /mongo/movies   → List movies from MongoDB
+- GET /neo4j/movies   → List movies from Neo4j
 
 Chapter Connection
 ------------------
