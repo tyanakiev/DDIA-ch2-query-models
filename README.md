@@ -33,11 +33,16 @@ Features
 
 Installation
 ------------
-git clone https://github.com/tyanakiev/DDIA-ch2-polyglot-movies.git
-cd DDIA-ch2-polyglot-movies
-python -m venv venv
-source venv/bin/activate  (or venv\Scripts\activate on Windows)
-pip install -r requirements.txt
+```git clone https://github.com/tyanakiev/DDIA-ch2-polyglot-movies.git```
+
+```cd DDIA-ch2-polyglot-movies```
+
+```python -m venv venv```
+
+```source venv/bin/activate  (or venv\Scripts\activate on Windows)```
+
+```pip install -r requirements.txt```
+
 
 Run with Docker
 ---------------
